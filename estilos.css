@@ -42,19 +42,39 @@ header h2{
 nav{
 	width: 100%;
 	clear:both;
-	padding: 10px;
+	padding: 10px 0px;
+	margin-bottom: 50px;
 }
 
 nav ul{
 	width: 100%;
 	list-style: none;
-	margin-bottom: 30px;
+	
 }
 
 nav ul li{
 	text-align: center;
-	width: 33%;
+	width: 33.33%;
 	float:left;
+	background: #c2b114;
+	padding: 10px 0px;
+	border-right: 1px #fff solid;
+	box-sizing: border-box; /*esto mete el borde dentro del elemento*/
+}
+
+/*la clase ultima quita el borde en el ultimo li para que quede bien*/
+nav ul li.ultima{
+	border-right: none;
+}
+
+nav ul li a:link, nav ul li a:visited{
+	color:#fff;
+	text-decoration: none;
+	display: block;/*hace clickeable todo el boton y no solo el texto*/
+}
+
+nav ul li:hover, nav ul li.actual{
+	background: #6b5808;
 }
 
 aside{
