@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	line-height: 1.3em;
+	font-size: 1em;
+	background: url(velez.jpg) top repeat-x;
+	}
+
+.container{
+	width: 80%;
+	max-width: 1000px; /*le da un limite de tamaño al contenedor*/
+	background: #ffffffe6;
+	margin: 20px auto;
+	border-radius: 5%;
+}
+
+header{
+	width: 100%;
+	float:left;
+}
+
+header h1 img{
+	width: 90px;
+	margin-left: 20px;
+	float: left;
+}
+
+header h2{
+	float: right;
+	font-size: 1.3em;
+	margin-top: 110px;
+	margin-right: 50px;
+}
+
+nav{
+	width: 100%;
+	clear:both;
+	padding: 10px;
+}
+
+nav ul{
+	width: 100%;
+	list-style: none;
+	margin-bottom: 30px;
+}
+
+nav ul li{
+	text-align: center;
+	width: 33%;
+	float:left;
+}
+
+aside{
+	width: 30%;
+	float: right;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+aside article{
+	width: 90%;
+	margin-bottom: 50px;
+	border-bottom: dotted 1px #5e5c5c;
+	padding-bottom: 20px;
+}
+aside img{
+	width: 210px;
+	height: 210px;
+}
+
+section{
+	padding: 20px;
+}
+
+section h1{
+	font-size: 1.5em;
+	margin-bottom: 1em;
+}
+
+section p{
+	line-height: 1.5em;
+}
+
+footer{
+	width: 100%;
+	clear:both;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+footer p{
+	font-size: 0.8em;
+	color: #645f60;
+}
+
+footer a:link footer a:visited{
+	color: #645f60;
+}
+
+footer a:hover{
+	text-decoration: none;
+}
