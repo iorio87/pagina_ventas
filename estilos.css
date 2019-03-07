@@ -24,10 +24,11 @@ body{
 header{
 	width: 100%;
 	float:left;
+	background: 
 }
 
 header h1 img{
-	width: 90px;
+	width: 100px;
 	margin-left: 20px;
 	float: left;
 }
@@ -38,6 +39,8 @@ header h2{
 	margin-top: 110px;
 	margin-right: 50px;
 }
+
+/*Menu Principal*/
 
 nav{
 	width: 100%;
@@ -77,6 +80,27 @@ nav ul li:hover, nav ul li.actual{
 	background: #6b5808;
 }
 
+/*Fin de Menu Principal*/
+
+/*Submenu*/
+
+nav ul li ul{
+	width: 333px;
+	margin-top: 11px;
+	position: absolute;
+	display: none; /*para que no muestre los submenues*/
+}
+
+nav ul li:hover > ul{/*esto despliega los sub solo cuando paso el raton*/
+	display: block;
+}
+
+nav ul li ul li{ /*refiere a los li desplegables*/
+	width: 100%;
+	border-bottom: 1px solid #fff;
+	background: #a17d17;
+}
+
 aside{
 	width: 30%;
 	float: right;
@@ -106,6 +130,15 @@ section h1{
 
 section p{
 	line-height: 1.5em;
+}
+
+section p img{
+	
+	width: 600px;
+	height: 400px;
+	margin: 10px 10px;
+	border: 5px solid black; 
+	
 }
 
 footer{
